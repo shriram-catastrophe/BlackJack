@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background: url("images/blackjacktable.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+#blackJackTable{
+    background: darkgreen;
+    width:550px;
+    height:275px;
+    border:6px solid whitesmoke;
+    text-align: center;
+    color: white;
+
+}
+#game-name{
+    color:goldenrod;
+    padding:10px 0 0 0;
+    letter-spacing: 1px;
+}
+#display{
+    margin: 20px 10px 10px 10px;
+    letter-spacing: 2px;
+}
+button{
+    background: goldenrod;
+    color: green;
+    padding:5px 10px;
+    border: none;
+    font-weight: bolder;
+}
+#cards,#sum,#start,#new{
+    margin: 20px 10px 10px 10px;
+}
